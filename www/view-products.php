@@ -1,9 +1,9 @@
 <?php
 session_start();
-$db_host   = '192.168.56.13';
-$db_name   = 'mydatabase';
-$db_user   = 'webuser1';
-$db_passwd = 'webuser1_pw';
+$db_host   = 'database-server.cxcoy8n6tiq2.us-east-1.rds.amazonaws.com';
+$db_name   = 'electronicsdb';
+$db_user   = 'admin';
+$db_passwd = 'brownkins123';
 
 try {
     
